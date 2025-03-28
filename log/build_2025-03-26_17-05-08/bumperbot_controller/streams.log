@@ -1,0 +1,65 @@
+[0.006s] Invoking command in '/home/nani/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nani/bumperbot_ws/build/bumperbot_controller -- -j20 -l20
+[0.020s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.102s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.102s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.117s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.118s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.122s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.147s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.190s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.236s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.236s] -- Added test 'lint_cmake' to check CMake code style
+[0.236s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.236s] -- Added test 'xmllint' to check XML markup files
+[0.237s] -- Configuring done
+[0.239s] -- Generating done
+[0.241s] -- Build files have been written to: /home/nani/bumperbot_ws/build/bumperbot_controller
+[0.289s] Built target ament_cmake_python_copy_bumperbot_controller
+[0.423s] running egg_info
+[0.423s] creating bumperbot_controller.egg-info
+[0.424s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.424s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.424s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.424s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.425s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.425s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.444s] Built target ament_cmake_python_build_bumperbot_controller_egg
+[0.450s] Invoked command in '/home/nani/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nani/bumperbot_ws/build/bumperbot_controller -- -j20 -l20
+[0.452s] Invoking command in '/home/nani/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nani/bumperbot_ws/build/bumperbot_controller
+[0.458s] -- Install configuration: ""
+[0.458s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[0.458s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[0.458s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[0.458s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.458s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.458s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.458s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.459s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[0.459s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[0.459s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[0.481s] Listing '/home/nani/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[0.481s] Compiling '/home/nani/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py'...
+[0.481s] Compiling '/home/nani/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[0.484s] -- Up-to-date: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[0.484s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controller.yaml
+[0.484s] -- Up-to-date: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[0.484s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[0.484s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[0.484s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[0.485s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[0.485s] -- Up-to-date: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[0.485s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[0.485s] -- Up-to-date: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[0.485s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[0.485s] -- Up-to-date: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[0.485s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[0.485s] -- Up-to-date: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[0.485s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[0.485s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[0.485s] -- Up-to-date: /home/nani/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[0.485s] -- Up-to-date: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[0.485s] -- Up-to-date: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[0.485s] -- Installing: /home/nani/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[0.486s] Invoked command in '/home/nani/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nani/bumperbot_ws/build/bumperbot_controller

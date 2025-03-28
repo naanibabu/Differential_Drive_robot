@@ -1,0 +1,47 @@
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:6:1:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSimpleContoller[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    6 | [01;31m[KSimpleController[m[K::SimpleContoller(const std::string & name)
+      | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:6:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint SimpleController::SimpleContoller(const string&)[m[K’
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:6:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kint SimpleController::SimpleContoller(const string&)[m[K’
+In file included from [01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1[m[K:
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SimpleController[m[K’ defined here
+   12 | class [01;36m[KSimpleController[m[K : public rclcpp:: Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:33:6:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleControler[m[K’ has not been declared
+   33 | void [01;31m[KSimpleControler[m[K::velCallback(const geometry_msgs::msg::TwistStamped &msg)
+      |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In function ‘[01m[Kvoid velCallback(const TwistStamped&)[m[K’:
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:37:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_conversion_[m[K’ was not declared in this scope
+   37 |     Eigen::Vector2d wheel_speed = [01;31m[Kspeed_conversion_[m[K.inverse() * robot_speed;
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:39:48:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::Vector2d[m[K’ {aka ‘[01m[Kclass Eigen::Matrix<double, 2, 1>[m[K’} has no member named ‘[01m[Kcoffe[m[K’
+   39 |     wheel_speed_msg.data.push_back(wheel_speed.[01;31m[Kcoffe[m[K(1));
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:40:48:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::Vector2d[m[K’ {aka ‘[01m[Kclass Eigen::Matrix<double, 2, 1>[m[K’} has no member named ‘[01m[Kcoffe[m[K’
+   40 |     wheel_speed_msg.data.push_back(wheel_speed.[01;31m[Kcoffe[m[K(0));
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_cmd_pub_[m[K’ was not declared in this scope
+   42 |     [01;31m[Kwheel_cmd_pub_[m[K ->publish(wheel_speed_msg);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:51:34:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleContoller[m[K’ was not declared in this scope; did you mean ‘[01m[KSimpleController[m[K’?
+   51 |     auto node = std::make_shared<[01;31m[KSimpleContoller[m[K>("simple_controller");
+      |                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                  [32m[KSimpleController[m[K
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:51:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(const char [18])[m[K’
+   51 |     auto node = [01;31m[Kstd::make_shared<SimpleContoller>("simple_controller")[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:5[m[K,
+                 from [01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nani/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:51:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |     auto node = [01;31m[Kstd::make_shared<SimpleContoller>("simple_controller")[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

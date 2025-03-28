@@ -1,0 +1,28 @@
+[0.007s] Invoking command in '/home/nani/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nani/bumperbot_ws/build/bumperbot_controller -- -j20 -l20
+[0.025s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.129s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.130s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.154s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.156s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.161s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.205s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.207s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.290s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.316s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.341s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.347s] -- Looking for pthread.h
+[0.420s] -- Looking for pthread.h - found
+[0.420s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.474s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.474s] -- Found Threads: TRUE  
+[0.514s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.563s] [31mCMake Error at CMakeLists.txt:23 (ament_traget_dependencies):
+[0.563s]   Unknown CMake command "ament_traget_dependencies".
+[0.563s] 
+[0.563s] [0m
+[0.563s] -- Configuring incomplete, errors occurred!
+[0.563s] See also "/home/nani/bumperbot_ws/build/bumperbot_controller/CMakeFiles/CMakeOutput.log".
+[0.567s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.569s] Invoked command in '/home/nani/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nani/bumperbot_ws/build/bumperbot_controller -- -j20 -l20
