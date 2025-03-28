@@ -1,3 +1,4 @@
-Project Title: Autonomous Four-Wheeled Robot with Odometry and Sensor Fusion
-Designed and developed a four-wheeled mobile robot with ROS 2 and Gazebo Ignition.
-Developed teleoperation capabilities for manual control via keyboard inputs.
+Project Title: Autonomous Four-Wheeled Robot with Odometry and Sensor Fusion:
+key_points:
+  Designed and developed a four-wheeled mobile robot with ROS 2 and Gazebo Ignition.
+  Developed teleoperation capabilities for manual control via keyboard inputs.
